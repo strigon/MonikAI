@@ -1,3 +1,16 @@
+#IMPORTANT UPDATE
+Due to the fact that Windows is not on my primary machine anymore,
+I'll do a crossplatform version.
+
+But I need to change everything for doing that..
+
+I'll try it on C++ because i'm confortable with it, instead of C#, even if I love C# too !
+
+Contribution is something I would love right now, so I'll try to document my code as much as I can.
+
+Thanks in advance~
+_Muzi-Chan_
+
 # MonikAI
 
 Hi! It's me, Monika!
