@@ -34,7 +34,7 @@ For using the new crossplatform remake, in cpp, there's still no release because
 
 ## Here's how to build
 
-**Linux :**
+#### **Linux :**
 To build on linux, it's simple,
 Make sure you have those dependency :
 * make
@@ -48,17 +48,17 @@ To install them, it depend of your distro
 Debian-Based (Debian, Kali Linux, Ubuntu...) : `# apt-get install make cmake libsdl2-dev libsdl2-image-dev git`
 
 Arch-Linux and Manjaro : `# pacman -Sy make cmake sdl2 sdl2_image git`
-
-
+** **
 Clone the repo with `$ git clone git://github.com/Muzi-Chan/MonikAI.git && cd MonikAI`
 
 Then prepare everything with `cmake CMakeLists.txt`
-
+** **
 And it's almost ready, just do `make` and the MonikAI file will appear
-
-**Windows :**
+** **
+** **
+#### **Windows :**
 WIP, I'll do it when I have my windows computer back (around the 27 december or something), if you know how to build CMake Project on Windows, make yourself at home
-
+\n
 **Mac OS :**
 I don't even own a Mac, I may do my research later, 
 
