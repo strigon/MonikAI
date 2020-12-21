@@ -25,6 +25,11 @@ bld/
 [Oo]bj/
 [Ll]og/
 cmake-build-debug/
+CMakeFiles/
+cmake_install.cmake
+CMakeCache.txt
+Makefile
+MonikAI
 
 # Visual Studio 2015 cache/options directory
 .vs/

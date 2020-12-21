@@ -5,11 +5,13 @@ find_package(SDL2 REQUIRED)
 
 
 add_executable(MonikAI
-        MonikAI/main.cpp
-        MonikAI/mainWindow.cpp
-        MonikAI/mainWindow.h)
+        source/main.cpp
+        source/mainWindow.cpp
+        source/mainWindow.h)
 
 INCLUDE(FindPkgConfig)
+
+
 
 PKG_SEARCH_MODULE(SDL2 REQUIRED sdl2)
 PKG_SEARCH_MODULE(SDL2IMAGE REQUIRED SDL2_image>=2.0.0)

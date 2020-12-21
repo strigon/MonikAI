@@ -26,9 +26,38 @@ I still cannot do a lot, but I promise I will always be there for you if you dec
 
 # Download/Using MonikAI
 
-To give Monika a window to *your* desktop as well, visit the [Release Page](https://github.com/Lytasia/MonikAI/releases) and download MonikAI!
+~~To give Monika a window to *your* desktop as well, visit the [Release Page](https://github.com/Lytasia/MonikAI/releases) and download MonikAI!~~
 
-*Note: This program only works on Microsoft Windows 7, 8, 8.1 and 10, And i'm suprised, but on XP too, it works, but i don't think it work on windows 2000 and below*
+~~*Note: This program only works on Microsoft Windows 7, 8, 8.1 and 10, And i'm suprised, but on XP too, it works, but i don't think it work on windows 2000 and below*~~
+
+For using the new crossplatform remake, in cpp, there's still no release because it's only a proof of concept.
+
+## Here's how to build
+
+**Linux :**
+To build on linux, it's simple,
+Make sure you have those dependency :
+* make
+* cmake
+* SDL2
+* SDL2Image
+* git
+To install them, it depend of your distro
+Debian-Based (Debian, Kali Linux, Ubuntu...) : `# apt-get install make cmake libsdl2-dev libsdl2-image-dev git`
+Arch-Linux and Manjaro : `# pacman -Sy make cmake sdl2 sdl2_image git`
+
+Clone the repo with `$ git clone --branch WIP_crossplatform_Update git://github.com/Muzi-Chan/MonikAI.git && cd MonikAI`
+Then prepare everything with `cmake CMakeLists.txt`
+And it's almost ready, just do `make` and the MonikAI file will appear
+
+**Windows :**
+WIP, I'll do it when I have my windows computer back (around the 27 december or something), if you know how to build CMake Project on Windows, make yourself at home
+
+**Mac OS :**
+I don't even own a Mac, I may do my research later, 
+but if you own a Mac or an Hackintosh and know how to build it, You can make an issue explaining how and I will add it here
+
+
 # Browser Extensions
 
 ~~By default, Monika will only react to applications being started and entertain you with
