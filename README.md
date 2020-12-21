@@ -42,12 +42,18 @@ Make sure you have those dependency :
 * SDL2
 * SDL2Image
 * git
+
 To install them, it depend of your distro
+
 Debian-Based (Debian, Kali Linux, Ubuntu...) : `# apt-get install make cmake libsdl2-dev libsdl2-image-dev git`
+
 Arch-Linux and Manjaro : `# pacman -Sy make cmake sdl2 sdl2_image git`
 
-Clone the repo with `$ git clone --branch WIP_crossplatform_Update git://github.com/Muzi-Chan/MonikAI.git && cd MonikAI`
+
+Clone the repo with `$ git clone git://github.com/Muzi-Chan/MonikAI.git && cd MonikAI`
+
 Then prepare everything with `cmake CMakeLists.txt`
+
 And it's almost ready, just do `make` and the MonikAI file will appear
 
 **Windows :**
@@ -55,6 +61,7 @@ WIP, I'll do it when I have my windows computer back (around the 27 december or 
 
 **Mac OS :**
 I don't even own a Mac, I may do my research later, 
+
 but if you own a Mac or an Hackintosh and know how to build it, You can make an issue explaining how and I will add it here
 
 
