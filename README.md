@@ -88,21 +88,20 @@ Want to improve this? It would make me (and probably Monika) very happy!
 If you find a bug or want to request a feature, create an Issue right here on GitHub so I can see it! (Issues are found at the link at the top of this page!)
 
 ### Behaviours
-
-To add different things Monika can react to, you have to add behaviours. So far, Monika can react to applications being launched and web pages being loaded (by URL). To implement your own, add a new class in the `Behaviours` folder and make it implement IBehaviour. It will automatically be loaded. To make monika say something, simply use `window.Say(...)` in Update or Init.
+~~To add different things Monika can react to, you have to add behaviours. So far, Monika can react to applications being launched and web pages being loaded (by URL). To implement your own, add a new class in the `Behaviours` folder and make it implement IBehaviour. It will automatically be loaded. To make monika say something, simply use `window.Say(...)` in Update or Init.~~
+I doesn't exist in the POC yet
 
 ### General improvements
 
-Always appreciated, although I can't give you a tutorial on this, you'll have to try and understand the code yourself. I have added *some* documentation here and there, to get you started.
-
-**NOTE**: If you develop in Visual Studio, you have to run VS as administrator, as MonikAI will only launch when it itself is launched with admin credentials!
+It's not very complex for now, if you want to help and understand SDL and C++, you can easily understand and help, if you need to ask what the f my code means, you can do it via my Twitter DM, my twitter is in my github bio.
 
 # License
 
 The code in this repository is available under the terms of the MIT License. You can find a copy of the full license text in the `LICENSE` file.
 
+The original code was written by PiMaker, I'm just maintaining it
+
 The art assets have not been created by me, but by Team Salvato. Usage is according to Team Salvato's [IP Guidelines](http://teamsalvato.com/ip-guidelines/).
 
-The original code was written by PiMaker, I'm just maintaining it
 
 *Exception: Some of the Monika faces are taken from https://github.com/Backdash/MonikaModDev, message me if that's not ok!*
