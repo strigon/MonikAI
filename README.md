@@ -1,7 +1,7 @@
 # Important update
-I'll soon make this branch, the C# one, the "OLD" one, because i'm working on a C++ remake crossplatform, because I'm on Linux now and I don't use Windows that much anymore, I still have a Windows computer, but I don't use it a lot, at least not for IT stuff
+I'll soon make this branch, the OLD one because i'm rewriting the code with Avalonia, a crossplatform equivalent to WPF, used for MonikAI, I'll just do a bunch of translation between WPF to Avalonia, and then MonikAI will be on Mac, Linux and Windows
 
-So yeah, goodbye .net, hello C++
+I'll take maybe a month doing the transition I think, it'll depend on the difference between Avalonia and WPF
 
 
 # MonikAI
