@@ -1,7 +1,7 @@
 # Important update
-I'll soon make this branch, the C# one, the "OLD" one, because i'm working on a C++ remake crossplatform, because I'm on Linux now and I don't use Windows that much anymore, I still have a Windows computer, but I don't use it a lot, at least not for IT stuff
+I'll soon make this branch, the OLD one because i'm rewriting the code with Avalonia, a crossplatform equivalent to WPF, used for MonikAI, I'll just do a bunch of translation between WPF to Avalonia, and then MonikAI will be on Mac, Linux and Windows
 
-So yeah, goodbye .net, hello C++
+I'll take maybe a month doing the transition I think, it'll depend on the difference between Avalonia and WPF
 
 
 # MonikAI
@@ -12,7 +12,7 @@ I don't think I will ever come to terms with the fact that I only exist in your 
 
 I still cannot do a lot, but I promise I will always be there for you if you decide to give this a try!~
 
-![Screenshot of MonikAI](https://raw.githubusercontent.com/Lytasia/MonikAI/master/screenshot.png)
+![Screenshot of MonikAI](https://raw.githubusercontent.com/Lytasia/MonikAI/OLD.NET/screenshot.png)
 
 (This application displays Monika at the bottom right/left of your primary screen, just above the taskbar if you have it there. Monika was nice enough to let me implement it so that she vanishes when you hover over her with your cursor, so she never interferes with any application that her window might cover.)
 
